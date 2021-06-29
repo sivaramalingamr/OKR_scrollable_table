@@ -1,0 +1,116 @@
+{
+    "nav": [
+        {
+            "logo": "",
+            "menu": [
+                {
+                    "label": "home",
+                    "link": "",
+                    "img": ""
+                },
+                {
+                    "label": "contact",
+                    "link": "",
+                    "img": ""
+                },
+                {
+                    "label": "login",
+                    "link": "",
+                    "img": ""
+                },
+                {
+                    "label": "logout",
+                    "link": "",
+                    "img": ""
+                }
+            ]
+        }
+    ],
+    "login": [
+        {
+            "cols": [
+                {
+                    "label": "login",
+                    "errorMsg": "Invalid username and password",
+                    "requiredMsg": "Please enter username and password",
+                    "btn": true,
+                    "btnText": "login",
+                    "type": "form",
+                    "form": [
+                        {
+                            "type": "input",
+                            "label": "Username",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your username"
+                        },
+                        {
+                            "type": "input",
+                            "label": "Password",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your Password"
+                        }
+                    ]
+                },
+                {
+                    "label": "Signup",
+                    "errorMsg": "",
+                    "requiredMsg": "Please enter mandatory field",
+                    "btn": true,
+                    "btnText": "Signup",
+                    "form": [
+                        {
+                            "type": "input",
+                            "label": "Username",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your username"
+                        },
+                        {
+                            "type": "input",
+                            "label": "Password",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your Password"
+                        },
+                        {
+                            "type": "input",
+                            "label": "Confirm password",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter Confirm Password"
+                        },
+                        {
+                            "type": "input",
+                            "label": "Phone",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your Phone"
+                        },
+                        {
+                            "type": "date",
+                            "label": "Date of birth",
+                            "required": true,
+                            "value": "",
+                            "placeholder": "Enter your Date of birth"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cols": [
+                {
+                    "text": "Place holder text",
+                    "imageSrc": "",
+                    "link": "",
+                    "heading": "PAKKIYAM & Co.",
+                    "type": "container"
+                }
+            ]
+        }
+    ],
+    "product": [],
+    "addProduct": []
+}
