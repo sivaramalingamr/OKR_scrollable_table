@@ -1,0 +1,25 @@
+name: Trigger API and Display Response
+
+on:
+  push: 
+    pull_request:
+      types: 
+        - opened
+        - edited
+        - reopened
+        - synchronize
+
+jobs:
+  triggerApi:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Trigger API and Capture Response
+      id: api
+      run: |
+        response=$(curl -X POST -H "Content-Type: application/json" -d https://reqres.in/api/users/2)
+        echo "::set-output name=response::$response"
+
+    - name: Display API Response
+      run: |
+        echo "API Response: ${{ steps.api.outputs.response }}"
